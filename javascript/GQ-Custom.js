@@ -23,7 +23,7 @@ setTimeout("loadExtraFiles('javascript/manzil5,6.js');", delay * 1000);
 delay = 1.2;
 setTimeout("loadExtraFiles('javascript/manzil2,3,4.js');", delay * 1000);
 delay = 5;
-setTimeout("loadExtraFiles('http://sdscdn.userreport.com/popup.min.js');", delay * 1000);
+// setTimeout("loadExtraFiles('http://sdscdn.userreport.com/popup.min.js');", delay * 1000);
 setTimeout("try { _bvt.initSite('2a56faaf-211f-4c5c-adec-50f76e0aaa9d'); } catch(err) {}", delay * 1100);
 
 var loadExtraFiles = function(datafilename){
