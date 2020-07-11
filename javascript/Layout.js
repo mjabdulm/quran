@@ -1811,9 +1811,9 @@ jQuery.fn.extend({
 });	
 
 $.ajaxSetup({"error":function(XMLHttpRequest,textStatus, errorThrown) {   
-    alert(textStatus);
-    alert(errorThrown);
-    alert(XMLHttpRequest.responseText);
+    // alert(textStatus);
+    // alert(errorThrown);
+    // alert(XMLHttpRequest.responseText);
 	layout.message('error', 'Oopss!!!, Something went wrong. please refresh your browser or try again.');
 	gq._gaqPush(['_trackEvent', 'Error', 'Oopss!!!, Something went wrong.']);
 }});
